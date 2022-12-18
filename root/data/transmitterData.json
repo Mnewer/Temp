@@ -1,0 +1,24 @@
+[
+  {
+    "manufacturer": "JO-Codes",
+    "Model": "Best 1",
+    "serial": "dummy1",
+    "calDate": "12.12.22",
+    "TAGnr": "Foo1"
+  },
+  {
+    "manufacturer": "JO-Codes",
+    "Model": "Best 1",
+    "serial": "dummy2",
+    "calDate": "12.12.22",
+    "TAGnr": "Foo2"
+  },
+
+  {
+    "manufacturer": "JO-Codes",
+    "Model": "Best 1",
+    "serial": "dummy3",
+    "calDate": "12.12.22",
+    "TAGnr": "Foo3"
+  }
+]

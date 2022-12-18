@@ -1,0 +1,153 @@
+/* Color palette: https://coolors.co/palette/fffcf2-ccc5b9-403d39-252422-eb5e28 */
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ccc5b9;
+}
+
+/* Global */
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button_1 {
+  height: 37px;
+  background: #eb5e28;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fffcf2;
+}
+
+/* Header */
+header {
+  background: #252422;
+  color: #fffcf2;
+  padding-top: 30px;
+  min-height: 70px;
+  min-width: none;
+  border-bottom: #eb5e28 3px solid;
+}
+
+header a {
+  color: #fffcf2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 5px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: #eb5e28;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #252422;
+  background-color: #eb5f28eb;
+  border-radius: 5px;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../img/offshore-platform.jpg") no-repeat 0 -50px, #2b2c2c;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fffcf2;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* Notifications */
+
+#notifications {
+  padding: 15px;
+  color: #fffcf2;
+  background: #252422;
+}
+
+#notifications h1 {
+  float: left;
+}
+
+#notifications form {
+  float: right;
+  margin-top: 15px;
+}
+
+#notifications input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Boxes */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fffcf2;
+  background-color: #252422;
+  text-align: center;
+}
