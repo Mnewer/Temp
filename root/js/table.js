@@ -26,4 +26,9 @@ function generateTable(table, data) {
 
 generateTable(table, tableData);
 
+const editBtn = document.querySelectorAll('#editBtn')
+editBtn.forEach((btn) => {
+  btn.addEventListener('click', editRow)
+})
+
 // editRow();
